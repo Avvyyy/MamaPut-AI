@@ -22,11 +22,11 @@ export const auth = betterAuth({
   socialProviders: {
     google: {
       clientId: process.env.AUTH_GOOGLE_ID,
-      clientSecret: process.env.AUTH_GOOGLE_SECRET,
+      clientSecret: process.env.AUTH_GOOGLE_SECRET
     },
   },
   baseURL: "http://localhost:3005",
-  trustedOrigins: ["http://localhost:5173", "https://api.mamaplaceai.tech"],
+  trustedOrigins: ["http://localhost:5173", "https://api.mamaplaceai.tech"]
 
 //   plugins: [
 //     emailOTP({
